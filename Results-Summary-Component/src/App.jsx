@@ -1,10 +1,11 @@
-import SummaryCont from "./Components/SummaryCont"
+import MainScoreCont from './Components/MainScoreCont'
+
 
 export default function App() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center w-screen h-screen m-32 border-2 border-black">
-          <SummaryCont />
+      <div className="flex flex-col items-center justify-center w-screen h-screen m-32 border-2 border-black bg-blue-100">
+          <MainScoreCont />
       </div>
     </>
   )
