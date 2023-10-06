@@ -1,7 +1,11 @@
+import SummaryCont from "./Components/SummaryCont"
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <div className="flex flex-col items-center justify-center w-screen h-screen m-32 border-2 border-black">
+          <SummaryCont />
+      </div>
+    </>
   )
 }
