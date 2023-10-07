@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        hg: "HankenGrotesk-VariableFont_wght.ttf", 
+        hg: 'Hanken Grotesk', 
       },
       colors: {
         perp: "#7755FF",
