@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        hg: "HankenGrotesk-VariableFont_wght.ttf", 
+      },
       colors: {
         perp: "#7755FF",
         lightperp: "#2F2CE9",

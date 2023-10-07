@@ -9,7 +9,7 @@ export default function SummarySubcategoryCont() {
             <SubcategoryComponent />
             <SubcategoryComponent />
             <SubcategoryComponent />
-            <button className='w-3/4 mx-auto mt-6 h-auto py-2 bg-gradient-to-t from-perp to-lightperp.0 .0rounded-2xl text-white text-xl font-bold'>Continue</button> 
+            <button className='w-3/4 mx-auto mt-6 h-auto py-2 bg-gradient-to-t from-lightperp to-perp rounded-2xl text-white text-xl font-bold font-hg'>Continue</button> 
          </div>
     </>
   )
