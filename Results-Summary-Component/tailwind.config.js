@@ -38,7 +38,7 @@ export default {
         },
       },
       animation: {
-        'spunOut': 'spun 3s linear infinite',
+        'spunOut': 'spun 5s linear infinite',
       },
     },
   },
