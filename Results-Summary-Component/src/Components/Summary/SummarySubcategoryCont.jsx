@@ -11,11 +11,11 @@ export default function SummarySubcategoryCont() {
   return (
     <> 
         <div className="flex flex-col my-6">
-            <SubcategoryComponent image={ReactionIcon} />
-            <SubcategoryComponent image={MemoryIcon} />
-            <SubcategoryComponent image={VerbalIcon} />
-            <SubcategoryComponent image={VisualIcon} />
-            <button className='w-3/4 mx-auto mt-6 h-auto py-2 bg-gradient-to-t from-indigo-600 to-indigo-800 rounded-2xl text-white text-xl font-bold font-hg'>Continue</button> 
+            <SubcategoryComponent image={ReactionIcon} backgroundColor={"bg-red-500/50"} />
+            <SubcategoryComponent image={MemoryIcon} backgroundColor={"bg-red-500/50"} />
+            <SubcategoryComponent image={VerbalIcon} backgroundColor={"bg-red-500/50"} />
+            <SubcategoryComponent image={VisualIcon} backgroundColor={"bg-red-500/50"} />
+            <button className='w-3/4 h-auto py-2 mx-auto mt-6 text-xl font-bold text-white bg-gradient-to-t from-indigo-600 to-indigo-800 rounded-2xl font-hg'>Continue</button> 
          </div>
     </>
   )
