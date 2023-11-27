@@ -4,7 +4,7 @@ export default function CircleResult() {
   return (
     <>  
         <div className="absolute w-48 h-48 rounded-full bg-gradient-to-t from-emerald-400/70 to-yellow-300 blur-xl animate-spunOut"></div>
-        <div className="relative w-48 h-48 rounded-full shadow-xl bg-gradient-to-t from-violet-600 to-indigo-800 ">
+        <div className="relative w-48 h-48 mb-8 translate-y-8 rounded-full shadow-xl bg-gradient-to-t from-violet-600 to-indigo-800">
             {/*TODO - Outputs:
                         1. Your Score: Variable Outcome
                         2. Out of 100: Constant */}
