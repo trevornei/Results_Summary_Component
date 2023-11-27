@@ -15,7 +15,7 @@ export default function SummarySubcategoryCont() {
             <SubcategoryComponent image={MemoryIcon} backgroundColor={"bg-yellow-300/20"} />
             <SubcategoryComponent image={VerbalIcon} backgroundColor={"bg-green-300/20"} />
             <SubcategoryComponent image={VisualIcon} backgroundColor={"bg-blue-300/20"} />
-            <button className='w-3/4 h-auto py-2 mx-auto mt-6 text-xl font-bold text-white bg-gradient-to-t from-indigo-600 to-indigo-800 rounded-2xl font-hg'>Continue</button> 
+            <button className='w-3/4 h-auto py-2 mx-auto mt-6 text-xl font-bold text-white bg-gradient-to-t from-violet-700 to-indigo-800 rounded-2xl font-hg'>Continue</button> 
          </div>
     </>
   )

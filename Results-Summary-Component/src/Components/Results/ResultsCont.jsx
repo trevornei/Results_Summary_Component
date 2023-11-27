@@ -4,11 +4,11 @@ import CircleResult from './CircleResult'
 export default function ResultsCont() {
   return (
     <>
-        <div className="flex flex-col items-center justify-center bg-gradient-to-b from-indigo-600 to-indigo-800 w-full h-full md:rounded-3xl sm:rounded-b-3xl my-18 mx-18 p-12 ">
-            <h1 className="text-xl text-white font-bold mx-auto mb-6 font-hg">Your Result</h1>
+        <div className="flex flex-col items-center justify-center w-full h-full p-12 bg-gradient-to-b from-violet-700 to-indigo-800 md:rounded-3xl sm:rounded-b-3xl my-18 mx-18 ">
+            <h1 className="mx-auto mb-6 text-xl font-bold text-white font-hg">Your Result</h1>
             <CircleResult />
-            <h1 className='text-3xl font-bold text-white mt-6 mx-auto'>Great!</h1>
-            <p className="text-md text-white text-center mt-6 mx-auto">Your score improved by 10% since your last attempt</p>
+            <h1 className='mx-auto mt-6 text-3xl font-bold text-white'>Great!</h1>
+            <p className="mx-auto mt-6 text-center text-white text-md">Your score improved by 10% since your last attempt</p>
         </div>
     </>
   )
